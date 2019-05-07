@@ -4,7 +4,7 @@ This Python template lets you get started quickly with a simple one-page playgro
 
 ```python runnable
 percentual_de_votos_nulos_e_brancos = 100-26-24-22;
-numero_de_votos = 196/percentual_de_votos_nulos_e_brancos;
+numero_de_votos = 196/0.28;
 numero_de_votos_do_candidato_vencedor = (26/100)*numero_de_votos;
 
 print("O numero de votos obtido pelo candidato vencedor foi igual a", numero_de_votos_do_candidato_vencedor);
